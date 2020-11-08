@@ -1,8 +1,8 @@
 {
-  "name": "go-to-tumblr",
+  "name": "go-to-foobar",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "go-to-tumblr",
+  "description": "go-to-foobar",
   "background": { "scripts": ["background.js"] },
   "permissions": [
     "tabs", 
@@ -11,7 +11,7 @@
   "page_action":
   {
     "default_icon": "icon.png",
-    "default_title": "go-to-tumblr"
+    "default_title": "go-to-foobar"
  }
 }
 
