@@ -1,19 +1,22 @@
 {
-  "name": "go-to-foobar",
-  "version": "1.0",
-  "manifest_version": 2,
-  "description": "go-to-foobar",
-  "background": { "scripts": ["jquery-3.6.0.min.js","background.js"] },
-  "permissions": [
-    "tabs", 
-    "alarms",
-	"storage"
-  ],
-  "page_action":
-  {
-    "default_icon": "icon.png",
-    "default_title": "go-to-foobar"
- },
- "options_page": "options.html"
+	"name": "go-to-foobar",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "go-to-foobar",
+	"background": {
+		"scripts": [
+			"jquery-3.6.0.min.js",
+			"background.js"
+		]
+	},
+	"permissions": [
+		"tabs",
+		"alarms",
+		"storage"
+	],
+	"page_action": {
+		"default_icon": "icon.png",
+		"default_title": "go-to-foobar"
+	},
+	"options_page": "options.html"
 }
-
